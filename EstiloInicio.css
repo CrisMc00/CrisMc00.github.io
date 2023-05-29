@@ -1,0 +1,30 @@
+.Contenido{
+    background-color: #efe6dd;
+    box-shadow: 0 0 10px;
+    margin: 0 200px 80px;
+}
+
+.Contenido p{
+    font-size: 35px;
+    margin: 50px;
+}
+
+.Contenido img{
+    height: 140px;
+    margin: 0 70px 50px;
+}
+
+@media (max-width: 1500px) {
+    .Contenido{
+        margin: 0 10% 80px;
+    }
+
+    .Contenido p{
+        margin: 30px 50px;
+    }
+
+    .Contenido img{
+        height: 100px;
+        margin: 0 2rem 50px;
+    }
+}
