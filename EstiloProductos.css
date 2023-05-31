@@ -1,0 +1,56 @@
+.Contenido{
+    display: flex;
+    flex-direction: column;
+    scroll-margin-top: 100px;
+}
+
+.Contenido h3{
+    font-size: 35px;
+    margin: 40px 0 20px;
+}
+
+.Contenido p{
+    font-size: 35px;
+}
+
+.Contenido .info1 p{
+    margin-top: 80px;
+}
+
+.Contenido .info2 p{
+    margin: 30px 70px;
+}
+
+.Contenido img{
+    height: 400px;
+    margin: 50px 70px 50px;
+    box-shadow: 5px 5px 15px;
+}
+
+.Productos{
+    display: flex;
+}
+
+@media (max-width: 1500px) {
+    .Contenido{
+        flex-direction: column;
+        margin: 0 10% 80px;
+    }
+    .Contenido h3{
+        margin-top: 0;
+    }
+    .Contenido .info1{
+        margin: 0 50px;
+    }
+    .Contenido .info1 p{
+        margin: 30px 0;
+    }
+    .Contenido .info2{
+        margin: 0 50px;
+        padding-bottom: 15px;
+    }
+    .Contenido .info2 p{
+        margin: 15px 0;
+        font-size: 35px;
+    }
+}
