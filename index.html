@@ -1,89 +1,79 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
+<html lang="en">
+    <head>
+        <title>suave romero</title>
+        <link rel="icon" href="Img/Logo.png">
+        <link rel="stylesheet" type="text/css" href="EstiloPrincipal.css">
+        <link rel="stylesheet" type="text/css" href="EstiloInicio.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap">
+    </head>
+    <body>
 
-    <header>
-        <h1>My curriculum</h1>
-    </header>
-
-    <h2>Projects</h2>
-    <div class = "proyectos">
-        <div class = "proyecto">
-
-            <h3>Web page: Suave Romero</h3>
-            <div class = "contenido">
-                <img src="Suave Romero.png">
-                <div class = "descripcion">
-                    <p>The project is about a website for a store of handmade natural products for personal care.</p>
-                    <p>The page is adapted to mobile devices except the products section.</p>
-                    <a href="https://crismc00.github.io/index.html" class = "boton" target="_blank">See</a>
+        <header id = "Inicio">
+            <nav>
+                <div class="logo"> 
+                    <a href="#"> <img src="Img/Logo blanco relleno.png"> </a>    
                 </div>
-            </div>
-
-        </div>
-        <br>
-        <br>
-        <div class = "proyecto">
-
-            <h3>C# in console: Snake</h3>
-            <div class = "contenido">
-                <img src="snake.png">
-                <div class = "descripcion">
-                    <p>The project is about the snake game but on the console</p>
-                    <p>In the game you can modify the game by changing the size of the map, the speed and the number of apples</p>
-                    <p>The game had some problems that every time the snake moves the entire map flashes and also you couldn't leave the key pressed because then it will take a while to change direction</p>
+            </nav>
+            <nav>
+                <div class = "frase">
+                    <img src="Img/Cuidado natural hecho a mano blanco.png">
                 </div>
+            </nav>
+            
+        </header>
+
+        <div class = "menu">
+            <nav>
+                <ul>
+                    <li><a href="#Inicio"> Inicio </a></li>
+                    <li><a href="Blog.html"> Blog </a></li>
+                    <li><a href="Productos.html"> Productos </a></li>
+                    <li><a href="#Contactos"> Contacto </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class = "Contenido">
+            <center>
+                <p> Te damos la bienvenida a la página de suave romero, donde encontrarás productos naturales hechos a mano para tu cuidado personal con los beneficios de las plantas, aceites vegetales, arcillas, aceites esenciales, etc. </p>
+                <p> Elaboramos productos naturales para tu cuidado personal sin envases plásticos, veganos, libres de crueldad animal y sin aceites minerales. </p>
+            </center>
+            <nav>
+                <ul>
+                    <li> <img src="Img/Natural negro.png"> </li>
+                    <li> <img src="Img/Vegano negro.png"> </li>
+                    <li> <img src="Img/Libre de crueldad animal negro.png"> </li>
+                    <li> <img src="Img/Aceite mineral negro.png"> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class = "Contenido">
+            <center>
+                <p> Estamos a tu servicio, deseando ser parte de tu rutina de amor propio y tu colaboración al cuidado del medio ambiente. </p>
+                <p class = "pp"> Síguenos en nuestras redes sociales para que no te pierdas los lanzamientos de nuestros productos. </p>
+            </center>
+        </div>
+
+        <div class = "Contenido ">
+            <center> <h3> Shampoos sólidos </h3> </center>
+            <div class="Productos">
+                <a href = "Productos.html#N1"><img src="Img/N1 shampoo solido.jpg"></a>
+                <a href = "Productos.html#N2"><img src="Img/N2 shampoo solido.jpg"></a>
+                <a href = "Productos.html#N3"><img src="Img/N3 shampoo solido.jpg"></a>
             </div>
-
         </div>
-        <br>
-        <br>
-        <div class = "proyecto">
 
-            <h3>C# on console: fighting game</h3>
-            <div class = "contenido">
-                <img src="JuegoDePelea.png">
-                <div class = "descripcion">
-                    <p>The project is about a game in which you fight against an enemy in turns</p>
-                    <p>The game is about attacking an enemy in which each attack is different, some do more damage than others and some burn the enemy all in turns.</p>
-                    <p>The enemy automatically attacks the player with random attacks and both the enemy and the player can be knocked out to take another turn.</p>
-                </div>
-            </div>
-
+        <div class = "findepagina" id = "Contactos">
+            <h3> Contactanos </h3>
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="Img/Instagram blanco.png"></li></a>
+                    <li><a href="#"><img src="Img/Facebook blanco.png"></li></a>
+                    <li><a href="#"><img src="Img/WhatsApp blanco.png"></li></a>
+                </ul>
+            </nav>
         </div>
-        <br>
-        <br>
-        <div class = "proyecto">
-
-            <h3>C# practices in console and Windows Forms</h3>
-            <div class = "contenido">
-                <embed src="Cuadernillo Unidad 2.pdf" type="application/pdf" width="700px" height="825px"  />
-            </div>
-
-        </div>  
-    </div>
-
-    <footer>
-        <h2>I can program in:</h2>
-        <div class="habilidad">
-            <img src="CsLogo.png">
-            <p>C# is an object-oriented programming language that can be used for developing desktop and mobile applications.</p>
-        </div>
-        <div class="habilidad">
-            <img src="HTMLLogo.png">
-            <p>HTML is the standard markup language for creating websites...</p>
-        </div>
-        <div class="habilidad">
-            <img src="CSSLogo.png">
-            <p>CSS is a document styling language used to design the presentation of HTML...</p>
-        </div>
-    </footer>
-
-</body>
+    </body>
 </html>
